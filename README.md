@@ -1,1 +1,1 @@
-# python_practice
+# 연습좀할게여
