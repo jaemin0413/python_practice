@@ -1,0 +1,5 @@
+a=input("내용을 입력하세요")
+f=open("c:/파이썬연습/test1.txt","a")
+f.write(a)
+f.write("\n")
+f.close()
