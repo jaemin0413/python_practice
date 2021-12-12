@@ -1,0 +1,9 @@
+a,b,c=map(int,input().split())
+q=(a+b)%c
+w=((a%c)+(b%c))%c
+e=(a*b)%c
+r=((a%c)*(b%c))%c
+print(q)
+print(w)
+print(e)
+print(r)
