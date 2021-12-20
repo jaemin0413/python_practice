@@ -1,7 +1,6 @@
-import sys
-n=int(sys.stdin.readline())
-for i in range(n):
-    a,b=map(int,sys.stdin.readline().split())
-    print(a+b)
-    if n==0:
-        break
+#1부터 n까지 합
+n=0
+a=int(input("숫자를 입력해주세요: "))
+for i in range(a+1):
+    n+=i
+print(n)
